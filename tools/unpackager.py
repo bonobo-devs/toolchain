@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Given a .bonobo file, extract the userscript code.
+# Given a .bonobo file, extract the userscript code. This tool is compliant with the BUDFv1 standard.
 import sys, json
 if len(sys.argv) < 2: # 0th argument + .bonobo file path
     print("usage: ./unpackager.py <FILE>", file=sys.stderr)
