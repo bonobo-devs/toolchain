@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Bonobo packaging tool to take a Bonobo TOML configuration and a userscript and produce a packaged .bonobo file.
+# Bonobo packaging tool to take a Bonobo TOML configuration and a userscript and produce a packaged .bonobo file. This tool is compliant with the BUDFv1 standard.
 import tomllib, json, sys
 
 if len(sys.argv) < 3: # 0th argument + TOML + userscript
